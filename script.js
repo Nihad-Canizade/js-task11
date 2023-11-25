@@ -1,4 +1,4 @@
-// Smile image
+// Smile Image
 let img1 = document.getElementById('img1');              // Unhappy smile
 let img2 = document.getElementById('img2');              // Neutral smile
 let img3 = document.getElementById('img3');              // Satisfied smile
