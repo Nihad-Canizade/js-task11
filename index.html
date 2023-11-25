@@ -11,20 +11,29 @@
 
         <!-- Text -->
         <div class="fortext">
-        <h2>Your Feedback</h2><img src="./eyes-smile.png" alt="Eyes" style="width: 3%; height: auto;">
+        <h2>Your Feedback</h2>
+        <img src="./eyes-smile.png" alt="Eyes" style="width: 3%; height: auto;" id="eyesSmile">
+        <div class="smile-main" id="yourFeedback"></div>
         </div>
 
         <!-- Image -->
-        <div class="imgs">
-            <img src="./Unhappy-smile.png" alt="Unhappy">
-            <img src="./Neutral-smile.webp" alt="Neutral">
-            <img src="./Satisfied-smile.png" alt="Satisfies">
+        <div class="imgs" id="imgsDiv">
+            <img src="./Unhappy-smile.png" alt="Unhappy" id="img1">
+            <img src="./Neutral-smile.webp" alt="Neutral" id="img2">
+            <img src="./Satisfied-smile.png" alt="Satisfies" id="img3">
+        </div>
+        <div class="forp">
+            <p id="unhappyText">Unhappy</p>
+            <p id="neutralText">Neutral</p>
+            <p id="satisfiedText">Satisfied</p>
         </div>
 
         <!-- Button -->
         <div class="forbutton">
-        <button>Send Feedback</button>
+        <button id="btn">Send Feedback</button>
         </div>
     </section>
+
+    <script src="./script.js"></script>
 </body>
 </html>

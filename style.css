@@ -4,10 +4,8 @@
     box-sizing: border-box;
 }
 
-section{
-    width: 100%;
-    height: 650px;
-    background-color: rgb(68, 68, 68);
+body{
+    background-color: rgb(44, 44, 44);
 }
 
 /* Text */
@@ -24,21 +22,58 @@ h2{
     text-align: center;
 }
 
+.smile-main{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.me-smile1{
+    background-image: url(Unhappy-smile.png);
+    background-size: cover;
+}
+
+.me-smile2{
+    background-image: url(Neutral-smile.webp);
+    background-size: cover;
+}
+
+.me-smile3{
+    background-image: url(Satisfied-smile.png);
+    background-size: cover;
+}
+
 /* Image */
 .imgs{
+    width: 50%;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
     gap: 30px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 1rem;
 }
 
 .imgs img{
-    width: 10%;
+    width: 30%;
     height: auto;
     cursor: pointer;
     border: 4px solid black;
     border-radius: 9999px;
+}
+
+/* For p */
+.forp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 2rem;
+    gap: 200px;
 }
 
 /* Button */
